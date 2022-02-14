@@ -1,12 +1,16 @@
-# Nodejs-Express-MongoDB
+# Nodejs-Custom-CLI
 
-Backend server side example with Nodejs, Express, MongoDB
+Custom Built CLI to bootstrap projects
 
-Rest APIs for performing Crud operations for select,add,update,delete tutorials.
+Command-line interfaces (CLIs) built in Node.js allow you to automate repetitive tasks while leveraging the vast Node.js ecosystem.
 
-## Setup
-Create MySQL database and update `app/config/db.config.js` for mongodb database url
+## Run CLI
 
-## Development server
+- Run `npm link` to link CLI locally 
+- Create test dir e.g. `mkdir test-dir`.
+- Change to folder directory `cd test-dir` . Navigate to `http://localhost:8080/`.
+- run command without arguments `create-project` which will prompt for template and git initialization.
+- or run command with arguments `create-project typescript --git --install` for typescript as template and git initialization and install packages
 
-Run `node server.js` for a starring server. Navigate to `http://localhost:8080/`.
+## Reference
+Check [here](https://www.twilio.com/blog/how-to-build-a-cli-with-node-js)
